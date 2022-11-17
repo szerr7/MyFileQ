@@ -8,7 +8,7 @@
           
           registration.onsubmit = function(event){
           
-                    event.defaultPrevented ; 
+                        event.preventDefault() ;
           
           
                     const buildingNumber = document.getElementById("buildingNo")
